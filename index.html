@@ -2,38 +2,81 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
+    <title>Currículo - Renan dos Santos Silva</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Renan Silva</title>
-    <!-- adicionar icone na aba -->
 </head>
 <body>
-    <!-- Verifique como criar links internos para elementos da sua página -->
     <header>
+        <div class="profile-picture">
+            <img src="sua-imagem.jpg" alt="Foto de Renan dos Santos Silva">
+        </div>
+        <h1>Renan dos Santos Silva</h1>
+        <h2>Desenvolvedor Full Stack</h2>
         <nav>
-            <a href="about-me">Sobre mim</a>
-            <a href="contact">Contato</a>
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#interesses">Interesses</a></li>
+                <li><a href="#disciplinas">Disciplinas Cursadas</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+            </ul>
         </nav>
     </header>
-    <aside>
-        <img src="" alt="perfil-photo">
-    </aside>
-    <main>
-        <section>
-            <h1>Sobre mim</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores minima temporibus! Blanditiis reprehenderit laudantium itaque consequatur possimus molestiae odio maxime quibusdam asperiores, nostrum omnis fugiat, cum consectetur quaerat minima.</p>
-
-        </section>
-    </main>
+    
+    <div class="content">
+        <aside>
+            <section class="contact">
+                <h3>Detalhes de Contato</h3>
+                <p>Email: <a href="mailto:renan@example.com">renan@example.com</a></p>
+                <p><a href="https://github.com/seu-usuario" target="_blank">GitHub</a></p>
+            </section>
+            
+            <section class="education">
+                <h3>Educação</h3>
+                <p>Sistemas de Informação (SIN)</p>
+                <p><a href="link-para-o-curso" target="_blank">UFSC</a></p>
+            </section>
+            
+            <section class="interests">
+                <h3>Interesses</h3>
+                <ul>
+                    <li>Inteligência Artificial</li>
+                    <li>Arquitetura de Sistemas</li>
+                    <li>Desenvolvimento Full Stack</li>
+                </ul>
+            </section>
+        </aside>
+        
+        <main>
+            <section id="sobre-mim">
+                <h3>Sobre Mim</h3>
+                <p>Desenvolvedor Full Stack com experiência em criar aplicações web e móveis utilizando as principais tecnologias de mercado, como JavaScript, Vue.js, React e Node.js.</p>
+            </section>
+            
+            <section id="interesses">
+                <h3>Interesses</h3>
+                <p>Me interesso por Inteligência Artificial aplicada à logística e desenvolvimento de soluções escaláveis.</p>
+            </section>
+            
+            <section id="disciplinas">
+                <h3>Disciplinas Cursadas</h3>
+                <p>INE 5646 - Curadoria de Conhecimentos</p>
+            </section>
+            
+            <section id="projetos">
+                <h3>Projetos Públicos</h3>
+                <ul>
+                    <li><a href="https://github.com/seu-usuario/projeto1" target="_blank">Projeto 1</a></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    
     <footer>
         <address>
-            Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br> 
-            Visit us at:<br>
-            Example.com<br>
-            Box 564, Disneyland<br>
-            USA
+            Contato: <a href="mailto:renan@example.com">renan@example.com</a><br>
+            LinkedIn: <a href="https://www.linkedin.com/in/renan-silva" target="_blank">renan-silva</a>
         </address>
     </footer>
 </body>
